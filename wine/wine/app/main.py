@@ -26,9 +26,8 @@ def save_data(data,quality):
     index='{}{}.{}'.format("wine.",year,week)
     data.update({'quality': quality[0]})
     updict = {'wine':index}
-    res = {**updict, **data}
-    print(res)
-    #res = es.index(index=index, body=data)
+    data = {**updict, **data}
+    res = es.index(index=index, body=data)
 
 """
 API REST
@@ -55,7 +54,6 @@ def post():
     df = pd.DataFrame(data=[allData], columns=columns)
     quality = model.predict(df)
 
-    #print(data)
     #SAVE THE DATA AND QUALITY PREDICTED IN ELASTICSEARCH
     if len(data) != 0:
         save_data(data,quality)
@@ -72,7 +70,4 @@ def post():
     return jsonify(json)
 
 if __name__ == "__main__":
-    #Update Public IP
-    #updateIpPublic("service-trello")
-    #api.add_resource(Trello, '/trello')
     app.run(host='0.0.0.0',port=5000, debug=False)
