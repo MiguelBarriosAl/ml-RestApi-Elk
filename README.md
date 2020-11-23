@@ -25,6 +25,7 @@ The project is composed by:
   
 Data:
 Input variables (based on physicochemical tests):
+  
   1 - fixed acidity
 
   2 - volatile acidity
