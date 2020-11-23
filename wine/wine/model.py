@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 """
 MODEL MACHINE LEARNING
 """
-path = "~/Documentos/flask/imasd/archive/winequality-red.csv"
+path = "~/winequality-red.csv"
 wine = pd.read_csv(path, sep=",")
 
 # DATA TO TRAIN AND TEST
