@@ -6,7 +6,7 @@ The solution to this problem has been the integration of a machine learning mode
 
 After that, the information of the parameters and quality are saved in database with Elastic Search(just in case).
 
-Rest: is any interface between systems that uses HTTP to obtain data or generate operations on that data in all possible formats, such as XML and JSO.
+Rest: is any interface between systems that uses HTTP to obtain data or generate operations on that data in all possible formats, such as XML and JSON.
 Supervised Model: the algorithms used for this type of learning require that each one of the instances used during the training process has an attribute
 ElasticSearch: is a search engine based on Lucene:
    - ES implements a distributed search server, in which a single server can respond to
