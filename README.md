@@ -24,33 +24,34 @@ The project is composed by:
   - requirements.txt
   
 Data:
+
 Input variables (based on physicochemical tests):
   
-      1 - fixed acidity
+  - fixed acidity
 
-      2 - volatile acidity
+  - volatile acidity
 
-      3 - citric acid
+  - citric acid
 
-      4 - residual sugar
+  - residual sugar
 
-      5 - chlorides
+  - chlorides
 
-      6 - free sulfur dioxide
+  - free sulfur dioxide
 
-      7 - total sulfur dioxide
+  - total sulfur dioxide
 
-      8 - density
+  - density
 
-      9 - pH
+  - pH
 
-      10 - sulphates
+  - sulphates
 
-      11 - alcohol
+  - alcohol
+  
+Output variable (based on sensory data):
 
-      Output variable (based on sensory data):
-
-      12 - quality (score between 0 and 10)
+  - quality (score between 0 and 10)
 
 
 
