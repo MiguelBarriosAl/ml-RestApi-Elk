@@ -26,31 +26,31 @@ The project is composed by:
 Data:
 Input variables (based on physicochemical tests):
   
-  1 - fixed acidity
+      1 - fixed acidity
 
-  2 - volatile acidity
+      2 - volatile acidity
 
-  3 - citric acid
+      3 - citric acid
 
-  4 - residual sugar
+      4 - residual sugar
 
-  5 - chlorides
+      5 - chlorides
 
-  6 - free sulfur dioxide
+      6 - free sulfur dioxide
 
-  7 - total sulfur dioxide
+      7 - total sulfur dioxide
 
-  8 - density
+      8 - density
 
-  9 - pH
+      9 - pH
 
-  10 - sulphates
+      10 - sulphates
 
-  11 - alcohol
+      11 - alcohol
 
-  Output variable (based on sensory data):
+      Output variable (based on sensory data):
 
-  12 - quality (score between 0 and 10)
+      12 - quality (score between 0 and 10)
 
 
 
