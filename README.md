@@ -52,6 +52,11 @@ Input variables (based on physicochemical tests):
 Output variable (based on sensory data):
 
   - quality (score between 0 and 10)
+  
+ - RUN 'python3 main.py'
+ - curl -X POST http://0.0.0.0:5000/model -H 'content-type: application/json' -d\ '{"fixed acidity": 7.4, "volatile acidity": 0,6, "citric acid": 0, "residual sugar": 1, "chlorides": 0.02, "free sulfur dioxide": 11, "total sulfur dioxide": 11, "density": 0.99, "ph": 3, "sulphates": 0.5, "alcohol": 9,4}'
+- output: {"quality":"Medium Quality","value":4.32}
+
 
 
 
