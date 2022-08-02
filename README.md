@@ -1,5 +1,4 @@
-# ml_restApi_elk
-Machine learning model integration with Elasticsearch in Api Rest
+# Machine learning model integration with Elasticsearch in Api Rest
     
 Do you like wines but you don't know how to give your opinion about their quality?
 The solution to this problem has been the integration of a machine learning model as an Api Rest full, in which, by introducing the different quality parameters, the model returns a number and a comment indicating whether it is high, medium or low quality.
